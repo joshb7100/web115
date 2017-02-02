@@ -1,0 +1,109 @@
+body {
+    background-color: lightblue;
+}
+
+.container {
+    max-width: 1080px;
+    background-color: floralwhite;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 1%;
+    box-sizing: border-box;
+    margin: 5px auto;
+}
+
+p {
+    min-height: 200px;
+}
+
+.anim1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    background-color: red;
+    border: 3px solid black;
+    box-sizing: border-box;
+    -webkit-animation-name: box-move;
+    -webkit-animation-duration: 6s;
+    animation-name: box-move;
+    animation-duration: 6s;
+}
+
+.anim2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    background-color: red;
+    border: 3px solid black;
+    box-sizing: border-box;
+    -webkit-animation-name: box-move;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-delay: 3s;
+    animation-name: box-move;
+    animation-duration: 6s;
+    animation-delay: 3s;
+}
+
+.anim3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    background-color: red;
+    border: 3px solid black;
+    box-sizing: border-box;
+    -webkit-animation-name: box-move;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 3;
+    animation-name: box-move;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+}
+
+.anim4 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    background-color: red;
+    border: 3px solid black;
+    box-sizing: border-box;
+    -webkit-animation-name: box-move;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 3;
+    -webkit-animation-direction: alternate;
+    animation-name: box-move;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+}
+
+@keyframes box-move {
+    0% {
+        left: 100px;
+        top: 0px;
+        background-color: red;
+    }
+    25% {
+        left: 600px;
+        top: 200px;
+        background-color: blue;
+    }
+    50% {
+        left: 600px;
+        top: 0px;
+        background-color: green;
+    }
+    75% {
+        left: 100px;
+        top: 200px;
+        background-color: yellow;
+    }
+    100% {
+        left: 100px;
+        top: 0px;
+        background-color: red;
+    }
+}
