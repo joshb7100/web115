@@ -1,0 +1,51 @@
+body {
+    background: rgb(57, 178, 46);
+}
+
+header {
+    border: 5px solid black;
+    background: rgb(122, 242, 111);
+    border-radius: 15px;
+    max-width: 1080px;
+    margin: 5px auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: Arial, bold, sans-serif;
+    color: black;
+}
+
+nav {
+    margin: 5px auto;
+    text-align: center;
+}
+
+.modules {
+    border: 5px solid black;
+    background: rgb(184, 255, 178);
+    border-radius: 15px;
+    max-width: 900px;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+nav a {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Arial, bold, sans-serif;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    background: lemonchiffon;
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block
+}
+
+nav a:hover {
+    color: lemonchiffon;
+    background: darkblue;
+}
