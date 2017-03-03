@@ -1,0 +1,66 @@
+$green: #0e7a08;
+$red: #ff2124;
+$blue: #2578fc;
+$offwhite: #f9f5e0;
+body {
+    background-color: $offwhite;
+}
+
+h1,
+h2,
+h3 {
+    color: black;
+    text-align: center;
+}
+
+.one {
+    color: $red;
+}
+
+.two {
+    color: $blue;
+}
+
+.three {
+    color: $green;
+}
+
+ul {
+    list-style: circle;
+    li {
+        color: $green;
+        font-size: 1.5em;
+        ul {
+            list-style: decimal;
+            li {
+                color: $blue;
+            }
+        }
+    }
+}
+
+%btn {
+    border: 3px solid black;
+    padding: 5px;
+    font-size: 2em;
+    color: black;
+}
+
+%btn:hover {
+    background: $offwhite;
+}
+
+.btn-r {
+    @extend %btn;
+    background-color: $red;
+}
+
+.btn-b {
+    @extend %btn;
+    background-color: $blue;
+}
+
+.btn-g {
+    @extend %btn;
+    background-color: $green;
+}

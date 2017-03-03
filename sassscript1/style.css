@@ -1,0 +1,61 @@
+/* line 5, C:/Users/Josh/Desktop/web115/sassscript1/style.scss */
+body {
+  background-color: #f9f5e0; }
+
+/* line 9, C:/Users/Josh/Desktop/web115/sassscript1/style.scss */
+h1,
+h2,
+h3 {
+  color: black;
+  text-align: center; }
+
+/* line 16, C:/Users/Josh/Desktop/web115/sassscript1/style.scss */
+.one {
+  color: #ff2124; }
+
+/* line 20, C:/Users/Josh/Desktop/web115/sassscript1/style.scss */
+.two {
+  color: #2578fc; }
+
+/* line 24, C:/Users/Josh/Desktop/web115/sassscript1/style.scss */
+.three {
+  color: #0e7a08; }
+
+/* line 28, C:/Users/Josh/Desktop/web115/sassscript1/style.scss */
+ul {
+  list-style: circle; }
+  /* line 30, C:/Users/Josh/Desktop/web115/sassscript1/style.scss */
+  ul li {
+    color: #0e7a08;
+    font-size: 1.5em; }
+    /* line 33, C:/Users/Josh/Desktop/web115/sassscript1/style.scss */
+    ul li ul {
+      list-style: decimal; }
+      /* line 35, C:/Users/Josh/Desktop/web115/sassscript1/style.scss */
+      ul li ul li {
+        color: #2578fc; }
+
+/* line 42, C:/Users/Josh/Desktop/web115/sassscript1/style.scss */
+.btn-r, .btn-b, .btn-g {
+  border: 3px solid black;
+  padding: 5px;
+  font-size: 2em;
+  color: black; }
+
+/* line 49, C:/Users/Josh/Desktop/web115/sassscript1/style.scss */
+.btn-r:hover, .btn-b:hover, .btn-g:hover {
+  background: #f9f5e0; }
+
+/* line 53, C:/Users/Josh/Desktop/web115/sassscript1/style.scss */
+.btn-r {
+  background-color: #ff2124; }
+
+/* line 58, C:/Users/Josh/Desktop/web115/sassscript1/style.scss */
+.btn-b {
+  background-color: #2578fc; }
+
+/* line 63, C:/Users/Josh/Desktop/web115/sassscript1/style.scss */
+.btn-g {
+  background-color: #0e7a08; }
+
+/*# sourceMappingURL=style.css.map */

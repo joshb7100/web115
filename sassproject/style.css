@@ -1,0 +1,240 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+/* line 9, C:/Users/Josh/Desktop/web115/sassproject/_cssreset.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* line 30, C:/Users/Josh/Desktop/web115/sassproject/_cssreset.scss */
+body {
+  line-height: 1; }
+
+/* line 34, C:/Users/Josh/Desktop/web115/sassproject/_cssreset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 39, C:/Users/Josh/Desktop/web115/sassproject/_cssreset.scss */
+nav ul {
+  list-style: none; }
+
+/* line 43, C:/Users/Josh/Desktop/web115/sassproject/_cssreset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 47, C:/Users/Josh/Desktop/web115/sassproject/_cssreset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 53, C:/Users/Josh/Desktop/web115/sassproject/_cssreset.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+/* line 62, C:/Users/Josh/Desktop/web115/sassproject/_cssreset.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+/* line 69, C:/Users/Josh/Desktop/web115/sassproject/_cssreset.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+/* line 76, C:/Users/Josh/Desktop/web115/sassproject/_cssreset.scss */
+del {
+  text-decoration: line-through; }
+
+/* line 80, C:/Users/Josh/Desktop/web115/sassproject/_cssreset.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+/* line 85, C:/Users/Josh/Desktop/web115/sassproject/_cssreset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+/* line 91, C:/Users/Josh/Desktop/web115/sassproject/_cssreset.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/* line 100, C:/Users/Josh/Desktop/web115/sassproject/_cssreset.scss */
+input, select {
+  vertical-align: middle; }
+
+/* line 6, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+body {
+  background-color: #fffdcc; }
+
+/* line 10, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+header {
+  background-color: darkslategray;
+  border: 5px solid #00050c;
+  max-width: 1180px;
+  margin: 5px auto;
+  border-radius: 15px; }
+
+/* line 18, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+.clear {
+  clear: both; }
+
+/* line 22, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+.headerimg {
+  width: 26%;
+  height: auto;
+  display: block;
+  float: right;
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 5px; }
+
+/* line 32, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+nav .homeLink, nav .goldenLink, nav .huskyLink, nav .shepardLink {
+  border: 5px solid #00050c;
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #fffdcc;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  color: #fffdcc;
+  display: inline-block; }
+
+/* line 45, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+h1, h2 {
+  color: #fffdcc;
+  text-shadow: 2px 2px black;
+  text-align: center; }
+
+/* line 51, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+h1 {
+  margin-top: 50px;
+  font-size: 4em; }
+
+/* line 57, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+h2 {
+  font-size: 2em;
+  margin: 5px; }
+
+/* line 63, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+nav {
+  margin: 5px auto;
+  margin-top: 15px;
+  text-align: center; }
+  /* line 67, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+  nav .homeLink {
+    background-color: #2f45ef; }
+    /* line 70, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+    nav .homeLink:hover {
+      background-color: #00050c;
+      color: #2f45ef; }
+  /* line 75, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+  nav .goldenLink {
+    background-color: #1128da; }
+    /* line 78, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+    nav .goldenLink:hover {
+      background-color: #00050c;
+      color: #2f45ef; }
+  /* line 83, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+  nav .huskyLink {
+    background-color: #0d1fab; }
+    /* line 86, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+    nav .huskyLink:hover {
+      background-color: #00050c;
+      color: #2f45ef; }
+  /* line 91, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+  nav .shepardLink {
+    background-color: #0b1b93; }
+    /* line 94, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+    nav .shepardLink:hover {
+      background-color: #00050c;
+      color: #2f45ef; }
+
+/* line 101, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+main {
+  background-color: darkslategray;
+  margin: 5px auto;
+  max-width: 1080px;
+  border: 5px solid black;
+  border-radius: 15px;
+  color: #fffdcc; }
+
+/* line 110, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+.homeImg {
+  display: block;
+  margin: 5px auto;
+  border: 5px solid black;
+  box-sizing: border-box;
+  max-width: 46%; }
+
+/* line 118, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+ul {
+  margin-left: 20px;
+  list-style-type: disc; }
+  /* line 121, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+  ul li {
+    margin-left: 20px;
+    text-indent: 5px;
+    font-size: 1.2em; }
+
+/* line 128, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+p {
+  margin: 10px;
+  font-size: 1.2em; }
+
+/* line 133, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+.hometext {
+  max-width: 75%;
+  margin: 1% auto; }
+
+/* line 138, C:/Users/Josh/Desktop/web115/sassproject/style.scss */
+footer {
+  max-width: 1080px;
+  background-color: darkslategrey;
+  margin: 5px auto;
+  border-radius: 15px;
+  border: 5px solid black;
+  color: #fffdcc;
+  text-align: center;
+  font-size: .8em; }
+
+/*# sourceMappingURL=style.css.map */

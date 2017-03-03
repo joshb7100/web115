@@ -1,0 +1,147 @@
+@import "_cssreset.scss";
+@import "_colorandfonts.scss";
+$borderwidth: 5px;
+$borderradius: 15px;
+$maxwidth: 1080px;
+body {
+    background-color: $offwhite;
+}
+
+header {
+    background-color: darkslategray;
+    border: $borderwidth solid $offblack;
+    max-width: $maxwidth+100px;
+    margin: 5px auto;
+    border-radius: $borderradius;
+}
+
+.clear {
+    clear: both;
+}
+
+.headerimg {
+    width: 26%;
+    height: auto;
+    display: block;
+    float: right;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+%btn {
+    border: $borderwidth solid $offblack;
+    border-radius: $borderradius;
+    padding: 5px;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: $offwhite;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    color: $btntext;
+    display: inline-block;
+}
+
+%headerbase {
+    color: $offwhite;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    @extend %headerbase;
+    font-size: 4em;
+}
+
+h2 {
+    @extend %headerbase;
+    font-size: 2em;
+    margin: 5px;
+}
+
+nav {
+    margin: 5px auto;
+    margin-top: 15px;
+    text-align: center;
+    .homeLink {
+        @extend %btn;
+        background-color: $btncolor;
+        &:hover {
+            background-color: $offblack;
+            color: $btncolor;
+        }
+    }
+    .goldenLink {
+        @extend %btn;
+        background-color: darken($btncolor, 10%);
+        &:hover {
+            background-color: $offblack;
+            color: $btncolor;
+        }
+    }
+    .huskyLink {
+        @extend %btn;
+        background-color: darken($btncolor, 20%);
+        &:hover {
+            background-color: $offblack;
+            color: $btncolor;
+        }
+    }
+    .shepardLink {
+        @extend %btn;
+        background-color: darken($btncolor, 25%);
+        &:hover {
+            background-color: $offblack;
+            color: $btncolor;
+        }
+    }
+}
+
+main {
+    background-color: darkslategray;
+    margin: 5px auto;
+    max-width: $maxwidth;
+    border: $borderwidth solid black;
+    border-radius: $borderradius;
+    color: $offwhite;
+}
+
+.homeImg {
+    display: block;
+    margin: 5px auto;
+    border: $borderwidth solid black;
+    box-sizing: border-box;
+    max-width: 46%;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+    li {
+        margin-left: 20px;
+        text-indent: 5px;
+        font-size: 1.2em;
+    }
+}
+
+p {
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+.hometext {
+    max-width: 75%;
+    margin: 1% auto;
+}
+
+footer {
+    max-width: $maxwidth;
+    background-color: darkslategrey;
+    margin: 5px auto;
+    border-radius: $borderradius;
+    border: $borderwidth solid black;
+    color: $offwhite;
+    text-align: center;
+    font-size: .8em;
+}
