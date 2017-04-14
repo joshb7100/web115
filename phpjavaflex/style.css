@@ -1,0 +1,145 @@
+body {
+    background-color: midnightblue;
+}
+
+main {
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 4em;
+    font-family: Impact, Charcoal, serif;
+}
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2em;
+}
+
+.box-flex {
+    flex: 1;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid whitesmoke;
+}
+
+.box-auto {
+    flex: auto;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    border: 1px solid whitesmoke;
+}
+
+.box-zero {
+    flex: 0;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid whitesmoke;
+}
+
+.row {
+    display: flex;
+    max-width: 1080px;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.column {
+    float: left;
+    display: flex;
+    max-width: 25%;
+    max-height: 600px;
+    flex-flow: column wrap;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin: 10px auto;
+}
+
+.column-reverse {
+    float: right;
+    display: flex;
+    max-height: 450px;
+    max-width: 25%;
+    flex-flow: column-reverse wrap;
+    justify-content: flex-end;
+    direction: rtl;
+    margin: 10px auto;
+}
+
+.main-image {
+    max-width: 65%;
+    height: auto;
+    margin: 10px;
+    display: block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.lilyimg {
+    text-align: center;
+    margin: 10px auto;
+}
+
+#large {
+    max-width: 90%;
+    max-height: 90%;
+    border: 3px solid white;
+    box-sizing: border-radius;
+    box-shadow: 2px 2px black;
+}
+
+header {
+    max-width:
+}
+
+header {
+    max-width: 1080px;
+    text-align: center;
+    border: 5px solid white;
+    margin: 5px auto;
+}
+
+footer {
+    max-width: 1080px;
+    text-align: center;
+    color: gainsboro;
+    font-size: 0.8em;
+    border: 5px solid white;
+    margin: 5px auto;
+}
+
+nav {
+    text-align: center;
+    margin: 5px auto;
+}
+
+nav a {
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 2px solid white;
+    background-color: darkslateblue;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    background-color: dimgray;
+}

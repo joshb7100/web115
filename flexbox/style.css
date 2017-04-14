@@ -1,0 +1,85 @@
+body {
+    background-color: midnightblue;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 4em;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 2em;
+    text-align: center;
+}
+
+.container {
+    border: 5px solid orange;
+    background-color: #010926;
+    padding: 20px;
+}
+
+.box {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid whitesmoke;
+}
+
+.box-auto {
+    flex: auto;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid whitesmoke;
+}
+
+.box-zero {
+    flex: 0;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid whitesmoke;
+}
+
+
+/* demonstrating how row wrap works */
+
+.row {
+    display: flex;
+    max-width: 800px;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.row-reverse {
+    display: flex;
+    max-width: 500px;
+    height: auto;
+    flex-flow: row-reverse wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.column {
+    display: flex;
+    max-width: 500px;
+    max-height: 600px;
+    height: auto;
+    flex-flow: column wrap;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin: 10px auto;
+}
+
+.column-reverse {
+    display: flex;
+    max-height: 400px;
+    max-width: 500px;
+    flex-flow: column-reverse wrap;
+    justify-content: space-around;
+    margin: 10px auto;
+}
